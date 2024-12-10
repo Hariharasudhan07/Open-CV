@@ -21,10 +21,10 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Class labels for binary classification
 class_labels = ["bad", "good"]
-cnn="/home/hari07/workspace/intern/models/cnn.h5"
-resnet='/home/hari07/workspace/intern/models/resnet_binary_classification.pth'
-yolo_cls='/home/hari07/workspace/intern/models/classify_best.pt'
-yolo_obj='/home/hari07/workspace/intern/yolo/yolo_object_detection/runs/detect/train/weights/best.pt'
+cnn="./models/cnn.h5"
+resnet='./models/resnet_binary_classification.pth'
+yolo_cls='./models/classify_best.pt'
+yolo_obj='./yolo/yolo_object_detection/runs/detect/train/weights/best.pt'
 cnn_model = tf.keras.models.load_model(cnn)
 
 yolo_class_model = YOLO(yolo_cls)
