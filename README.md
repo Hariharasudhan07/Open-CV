@@ -39,7 +39,7 @@ The model needs to:
 - The model performed well on simpler cases but struggled with subtle scratches.
 - Overfitting was observed when adding more convolutional layers without augmentation.
 
-![Loss images](/assets/classify.png)
+![Loss images](/assests/classify.png)
 
 ---
 
@@ -70,7 +70,7 @@ The model needs to:
 - **Transfer learning** improved performance significantly.
 - The model was sensitive to the small dataset size, requiring careful augmentation to avoid overfitting.
 
-![Confussion matix](/assets/resnet.png)
+![Confussion matix](/assests/resnet.png)
 ---
 
 ### 4. YOLOv11 Classification
