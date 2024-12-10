@@ -5,4 +5,8 @@ numpy
 scikit-learn
 keras
 matplotlib
-
+streamlit 
+torch 
+torchvision 
+ultralytics
+pillow
